@@ -1,0 +1,62 @@
+body {background-color: #000000;}
+
+.container {
+    text-align: center;
+    padding: 20px;}
+
+.titulo {
+    color: #b0b0b0;}
+
+.calculadora {
+  margin: auto;
+  width: 315px;
+  border-radius: 12px;
+  background-color: rgb(113, 14, 14);}
+
+.tela {
+  width: 315px;
+  border-radius: 10px;
+  height: 70px;
+  background-color: #202020de;}
+
+.contas div {
+  color: #000000;
+  display: inline-block; /* faz as divs ficar lado a lado */
+  border-radius: 30px;
+  width: 20px;
+  padding: 20px;
+  margin: 20px 4px 10px 0;
+  background-color: #ffffff;}
+
+.painel-numeros {
+  display: inline-block;
+}
+
+.numeros div {
+  color: white;
+  display: inline-block;
+  border: 0;
+  border-radius: 1px;
+  width: 40px;
+  text-align: center;
+  padding: 10px;
+  margin: 10px 4px 10px 0;
+  cursor: pointer;
+  background-color: #202020;
+  transition: border-color .2s ease-in-out, background-color .2s, box-shadow .2s;
+}
+
+.igual {
+  display: inline-block;
+  border: 0;
+  border-radius: 1px;
+  width: 40px;
+  text-align: center;
+  padding: 102px 10px;
+  margin: 10px 6px 10px 0;
+  vertical-align: top;
+  cursor: pointer;
+  color: #FFF;
+  background-color: #202020;
+  transition: all .2s ease-in-out;
+}
